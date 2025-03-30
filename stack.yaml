@@ -6,7 +6,7 @@ services:
     volumes:
       - docker-registry-vol:/var/lib/registry
     networks:
-      - net
+      - warmpit_net
     environment:
       - REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY=/var/lib/registry
     #      - REGISTRY_AUTH=htpasswd
