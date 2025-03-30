@@ -23,8 +23,8 @@ services:
         limits:
           cpus: "1"
           memory: 512M
-#    ports:
-#      - "5000:5000"
+    ports:
+      - "5000:5000"
 
 networks:
   swarmpit_net:
